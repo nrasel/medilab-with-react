@@ -13,11 +13,9 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-
         <Switch>
           <Route exact path="/home">
             <Home />
-
           </Route>
           <Route exact path="/departments">
             <Departments />
@@ -27,7 +25,6 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home />
-
           </Route>
           <Route path="*">
             <NotFound />

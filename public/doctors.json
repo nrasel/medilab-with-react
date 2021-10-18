@@ -1,0 +1,73 @@
+[
+    {
+        "id": "1",
+        "name": "Walter White",
+        "title": "Chief Medical Officer",
+        "desc": "Chief Medical Officers have the primary responsibility of managing their health organization's doctors to provide safe, effective medical services to the public.",
+        "img": "https://i.ibb.co/xYSYhk4/doctors-1.jpg",
+        "type": "doctor"
+    },
+    {
+        "id": "2",
+        "name": "Sarah Jhonson",
+        "title": "Anesthesiologist",
+        "desc": "Chief Medical Officers have the primary responsibility of managing their health organization's doctors to provide safe, effective medical services to the public.",
+        "img": "https://i.ibb.co/V2DSfrX/doctors-2.jpg",
+        "type": "doctor"
+    },
+    {
+        "id": "3",
+        "name": "William Anderson",
+        "title": "Cardiology",
+        "desc": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system",
+        "img": "https://i.ibb.co/tPyLMVs/doctors-3.jpg",
+        "type": "doctor"
+    },
+    {
+        "id": "4",
+        "name": "Amanda Jepson",
+        "title": " Neurosurgeon",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": " https://i.ibb.co/9TdmQsT/doctors-4.jpg",
+        "type": "doctor"
+    },
+    {
+        "id": "5",
+        "title": " Cardiology",
+        "desc": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.",
+        "img": "https://i.ibb.co/DMshH03/departments-1.jpg",
+        "type": "Cardiology"
+    },
+    {
+        "id": "6",
+        "name": "Amanda Jepson",
+        "title": " Neurosurgeon",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/6nLy7R8/departments-2.jpg",
+        "type": "Neurology"
+    },
+    {
+        "id": "7",
+        "name": "Amanda Jepson",
+        "title": " Neurosurgeon",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/WG4VHTm/departments-3.jpg",
+        "type": "Hepatology"
+    },
+    {
+        "id": "8",
+        "name": "Amanda Jepson",
+        "title": " Neurosurgeon",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/rHyKP0R/departments-4.jpg",
+        "type": "Pediatrics"
+    },
+    {
+        "id": "9",
+        "name": "Amanda Jepson",
+        "title": " Neurosurgeon",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "EyeCare"
+    }
+]

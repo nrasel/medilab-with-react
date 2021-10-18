@@ -1,0 +1,85 @@
+
+.section-title h1{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #2c4964;
+}
+.section-title h1::after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: #1977cc;
+    bottom: 0;
+    display: block;
+    left: calc( 50% - 20px);
+}
+.section-title h1::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    left: calc(50% - 60px);
+    bottom: 1px;  
+}
+.member{
+    box-shadow: 0px 2px 15px rgb(44 73 100 / 15%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.member-img{
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+.member-img img{
+    transition: ease-in-out 0.3s;
+}
+.member:hover img{
+    transform: scale(1.1);
+}
+.member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+}
+.member-info span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: lighter;
+}
+.member-info span::before{
+    position: absolute;
+    content: '';
+    background: #b2c8dd;
+    width: 50px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+.member-info p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.member-social-icon a{
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #a0bcd5;
+    text-decoration: none;
+    margin-right: 6px;
+}
+.member-social-icon a:hover{
+    background: #1977cc;
+}
+.member-social-icon a i{
+    color: white;
+}
