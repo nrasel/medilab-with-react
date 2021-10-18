@@ -23,10 +23,10 @@ const Header = () => {
                                         <NavLink className="nav-link" aria-current="page" to="/home">Home</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <NavLink className="nav-link" to="/about">About</NavLink>
+                                        <NavLink className="nav-link" to="/departments">Departments</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <NavLink className="nav-link" to="/services">Services</NavLink>
+                                        <NavLink className="nav-link" to="/doctors">Doctors</NavLink>
                                     </li>
                                 </ul>
                             </div>

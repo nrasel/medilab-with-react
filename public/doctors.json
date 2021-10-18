@@ -50,7 +50,7 @@
         "id": "7",
         "name": "Amanda Jepson",
         "title": " Hepatology",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "desc": "Hepatology is a branch of medicine concerned with the study, prevention, diagnosis, and management of diseases that affect the liver, gallbladder, biliary tree, and pancreas. The term hepatology is derived from the Greek words “hepatikos” and “logia,” which mean liver and study, respectively.",
         "img": "https://i.ibb.co/WG4VHTm/departments-3.jpg",
         "type": "Hepatology"
     },
@@ -58,15 +58,15 @@
         "id": "8",
         "name": "Amanda Jepson",
         "title": " Pediatrics",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "desc": "Paediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends people seek pediatric care through the age of 21. In the United Kingdom, paediatrics covers patients until age 18.",
         "img": "https://i.ibb.co/rHyKP0R/departments-4.jpg",
         "type": "Pediatrics"
     },
     {
         "id": "9",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "title": "Eye Care",
+        "desc": "Eye Care Center is one of Cairo's most advanced one- day full service facilities providing comprehensive diagnostic and surgical ophthalmology procedures.",
         "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
         "type": "EyeCare"
     },

@@ -33,10 +33,10 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className="useful-link d-flex flex-column">
                                 <h4>Our Services</h4>
-                                <Link to="/home" ><i className="fas fa-chevron-right"></i> Web Designer</Link>
-                                <Link to="/home"><i className="fas fa-chevron-right"></i> Web Development</Link>
-                                <Link to="/home"><i className="fas fa-chevron-right"></i> Product Management</Link>
-                                <Link to="/home"><i className="fas fa-chevron-right"></i> Marketing</Link>
+                                <Link to="/home" ><i className="fas fa-chevron-right"></i> Pathology</Link>
+                                <Link to="/home"><i className="fas fa-chevron-right"></i> Radiology</Link>
+                                <Link to="/home"><i className="fas fa-chevron-right"></i> Pharmacy</Link>
+                                <Link to="/home"><i className="fas fa-chevron-right"></i> Physiotherapy</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 col-md-6">

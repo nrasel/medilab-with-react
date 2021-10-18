@@ -1,17 +1,21 @@
 .menuLink{
-    color: rgb(228, 32, 32);
-    border-bottom: 2px solid rgb(228, 32, 32);
-    font-size: 20px;
+    color: #1977cc;
+    border-color: #1977cc;
+    font-size: 18px;
     margin-right: 16px;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
 }
 .menuLinkActive{
-    color: rgb(17, 16, 16);
-    font-size: 20px;
+    color: #2c4964;
+    font-size: 18px;
     margin-right: 16px;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+}
+.depart-img{
+    width: 200px;
+    display: block;
 }

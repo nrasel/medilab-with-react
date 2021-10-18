@@ -33,6 +33,9 @@
     background: #1977cc;
     color: white;
 }
+.service-box:hover .appoinment-btn{
+    background-color: #5e90bd;
+}
 .service-img{
     width: 300px;
     height: 200px;
@@ -43,42 +46,7 @@
 .service-img:hover{
     transform: scale(1.1);
 }
-/* .service-box:hover .service-icon{
-    background: white;
-}
-.service-box:hover .service-icon i{
-    color: #1977cc;
-} */
-/* .service-icon{
-    background: #1977cc;
-    height: 64px;
-    width: 64px;
-    margin: 0 auto;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    transition: all .3s ease-out 0s;
-    transform-style: preserve-3d;
-}
-.service-icon::before{
-    position: absolute;
-    content: '';
-    top: -8px;
-    left: -8px;
-    border-radius: 5px;
-    width: 70px;
-    height: 65px;
-    background: #badaf7;
-    transition: all .3s ease-out 0s;
-    transform: translateZ(-1px);
-}
-.service-icon i{
-    font-size: 28px;
-    color: white;
 
-} */
 .appoinment-btn{
     background-color: #1977cc;
     transition: 0.4s;
