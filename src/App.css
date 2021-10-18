@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* --------------------
+      media query
+---------------------- */
+@media (min-width: 992px) {
+  .modal-backdrop.show {
+      opacity: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .departments .nav-link.active{
+      color: white;
+      border-color: white;
+      background-color: #1977cc;
+  }
+  .departments .nav-link{
+      text-align: center;
+      border-right: 0;
+  } 
+
+}
+@media (max-width: 768px) {
+  .flex-End{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .credit-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+}
+@media (max-width: 342px) {
+ .banner-heading{
+   font-size: 38px !important;
+ }
+  
+}
+
+

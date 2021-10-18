@@ -7,7 +7,6 @@ import NotFound from './components/NotFound/NotFound';
 import Departments from './components/Departments/Departments';
 import Doctors from './components/Doctors/Doctors';
 import Footer from './components/Footer/Footer';
-import Banner from './components/Banner/Banner';
 
 function App() {
   return (
