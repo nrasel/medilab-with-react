@@ -1,0 +1,45 @@
+/* navbar section */
+.nav-color{
+    color: #2c4964;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #2c4964 !important;
+}
+.navbar{
+    border-bottom: 2px solid rgb(226, 233, 226);
+}
+.navbar-background{
+    background-color: #ffffff;
+}
+
+/* top banner section */
+
+#top-banner{
+    background: url(../../images/hero-bg.jpg) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+}
+.banner-info h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner-info p{
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+
+.btn-get-started{
+    color: white;
+    background: #1977cc;
+}
+.btn-get-started:hover{
+    color: white;
+    background: #3291e6;
+}
+

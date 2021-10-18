@@ -1,0 +1,28 @@
+.footer{
+    background-color: #f0f7fd;
+}
+.flex-End{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-social-icon a{
+text-decoration: none;
+font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.footer-social-icon a:hover{
+    background: #1c84e3;
+    color: #fff;
+    text-decoration: none;
+}
