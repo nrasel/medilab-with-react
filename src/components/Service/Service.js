@@ -2,17 +2,18 @@ import React from 'react';
 import '../Services/Services.css'
 
 const Service = (props) => {
-    const { name } = props.service
+    const { title, desc, img } = props.service
     console.log(props)
     return (
-        <div className="mt-5 pt-5">
+        <div>
             <div className="">
                 <div className="service-box h-100">
-                    <div className="service-icon">
-                        <i className="fas fa-heartbeat"></i>
+                    <div className="">
+                        <img className="service-img img-fluid" src={img} alt="" />
                     </div>
-                    <h4 className="my-4">Lorem Ipsum</h4>
-                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    <h4 className="my-4">{title}</h4>
+                    <p>{desc.slice(0, 100)}</p>
+                    <button className="appoinment-btn text-white rounded-pill  border-0">Details</button>
                 </div>
             </div>
         </div>

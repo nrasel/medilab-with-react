@@ -73,49 +73,49 @@
     {
         "id": "10",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
-        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "title": "Pathology",
+        "desc": "Pathology is the medical specialty concerned with the study of the nature and causes of diseases. It underpins every aspect of medicine, from diagnostic testing and monitoring of chronic diseases to cutting-edge genetic research and blood transfusion technologies. Pathology is integral to the diagnosis of every cancer.",
+        "img": "https://i.ibb.co/NNP19H9/pathology.jpg",
         "type": "Service"
     },
     {
         "id": "11",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
-        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "title": "Radiology",
+        "desc": "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease. Radiology may be divided into two different areas, diagnostic radiology and interventional radiology. Doctors who specialize in radiology are called radiologists.",
+        "img": "https://i.ibb.co/mJ60wNQ/surgery.jpg",
         "type": "Service"
     },
     {
         "id": "12",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
-        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "title": "Pharmacy",
+        "desc": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs.",
+        "img": "https://i.ibb.co/ZmDVf9x/pharmacry.jpg",
         "type": "Service"
     },
     {
         "id": "13",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "title": "Cataract surgery",
+        "desc": "Cataract surgery involves replacing the cloudy lens inside your eye with an artificial one. It has a high success rate in improving your eyesight. It can take 2 to 6 weeks to fully recover from cataract surgery.",
         "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
         "type": "Service"
     },
     {
         "id": "14",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
-        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "title": "Physiotherapy",
+        "desc": "Physical therapy, also known as physiotherapy, is one of the allied health professions. It is provided by physical therapists who promote, maintain, or restore health through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention and health promotion.",
+        "img": "https://i.ibb.co/6YJkDs1/physiotherapy.jpg",
         "type": "Service"
     },
     {
         "id": "15",
         "name": "Amanda Jepson",
-        "title": " Eye Care",
-        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
-        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "title": "IV Therapy",
+        "desc": "IV therapy is a delivery method for fluids and medication. “IV” stands for intravenous, which means it's administered through the veins. The fluid that contains vitamins and minerals or medication is delivered via an IV drip or injection into the vein, which allows the therapy to move quickly through your bloodstream..",
+        "img": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
         "type": "Service"
     }
 ]
