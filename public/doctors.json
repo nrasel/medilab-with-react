@@ -49,7 +49,7 @@
     {
         "id": "7",
         "name": "Amanda Jepson",
-        "title": " Neurosurgeon",
+        "title": " Hepatology",
         "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
         "img": "https://i.ibb.co/WG4VHTm/departments-3.jpg",
         "type": "Hepatology"
@@ -57,7 +57,7 @@
     {
         "id": "8",
         "name": "Amanda Jepson",
-        "title": " Neurosurgeon",
+        "title": " Pediatrics",
         "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
         "img": "https://i.ibb.co/rHyKP0R/departments-4.jpg",
         "type": "Pediatrics"
@@ -65,9 +65,57 @@
     {
         "id": "9",
         "name": "Amanda Jepson",
-        "title": " Neurosurgeon",
+        "title": " Eye Care",
         "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
         "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
         "type": "EyeCare"
+    },
+    {
+        "id": "10",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
+    },
+    {
+        "id": "11",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
+    },
+    {
+        "id": "12",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
+    },
+    {
+        "id": "13",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
+    },
+    {
+        "id": "14",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
+    },
+    {
+        "id": "15",
+        "name": "Amanda Jepson",
+        "title": " Eye Care",
+        "desc": "Neurosurgeons diagnose, assess and perform surgery to treat disorders of the nervous system. They operate on the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body.",
+        "img": "https://i.ibb.co/PjSZQ4Z/departments-5.jpg",
+        "type": "Service"
     }
 ]
