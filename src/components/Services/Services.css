@@ -51,6 +51,7 @@
     background-color: #1977cc;
     transition: 0.4s;
     padding: 5px 20px;
+    text-decoration: none;
 }
 .appoinment-btn:hover{
     background-color: white !important;

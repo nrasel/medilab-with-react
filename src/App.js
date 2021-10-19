@@ -10,6 +10,10 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
+import SingleService from './components/SignleService/SingleService';
+import SingleServiceDetails from './components/SignleService/SingleServiceDetails';
+import Service from './components/Service/Service';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -26,6 +30,12 @@ function App() {
             </Route>
             <Route exact path="/doctors">
               <Doctors />
+            </Route>
+            <Route exact path="/services">
+              <Services />
+            </Route>
+            <Route exact path="/service/:id">
+              <SingleService />
             </Route>
             <Route exact path="/login">
               <Login />

@@ -1,9 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../Services/Services.css'
 
 const Service = (props) => {
-    const { title, desc, img } = props.service
-    console.log(props)
+    const { title, desc, img, id } = props.service
     return (
         <div>
             <div className="">
@@ -13,7 +13,7 @@ const Service = (props) => {
                     </div>
                     <h4 className="my-4">{title}</h4>
                     <p>{desc.slice(0, 100)}</p>
-                    <button className="appoinment-btn text-white rounded-pill  border-0">Details</button>
+                    <NavLink to={`/service/${id}`} className="appoinment-btn text-white rounded-pill border-0">Details</NavLink>
                 </div>
             </div>
         </div>
