@@ -42,7 +42,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-sm-6 col-md-6">
                             <div className="specialist-info">
                                 <h4>Join Our Specialist</h4>
-                                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                                <p>An allergist or immunologist focuses on preventing and treating allergic diseases.</p>
                                 <form action="" className="specialist-form">
                                     <input className="specialist-email" type="email" name="" id="" />
                                     <input className="subscribe-btn" type="submit" value="Subscribe" />

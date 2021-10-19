@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink, useParams, useHistory } from 'react-router-dom';
-import SingleServiceDetails from './SingleServiceDetails';
+import { NavLink, useParams } from 'react-router-dom';
 
 const SingleService = () => {
     const { id } = useParams()
-    const history = useHistory()
     console.log(id)
     const [serviceDetails, setServiceDetails] = useState([])
     const [singleServiceDetails, setsingleServiceDetails] = useState({})

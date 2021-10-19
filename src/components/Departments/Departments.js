@@ -38,7 +38,7 @@ const Departments = () => {
                         <Container>
                             <Row xs={1} md={1} className="g-4 ">
                                 {
-                                    departments?.filter((dept) => department === dept?.type)?.map(dept => <Department dept={dept} />)
+                                    departments?.filter((dept) => department === dept?.type)?.map(dept => <Department key={dept.id} dept={dept} />)
                                 }
                             </Row>
                         </Container>

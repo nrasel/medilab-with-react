@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
-                    services?.filter((service) => service.type === "Service")?.map(service => <Service service={service} />)
+                    services?.filter((service) => service.type === "Service")?.map(service => <Service key={service.id} service={service} />)
                 }
             </div>
         </div >
