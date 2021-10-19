@@ -4,7 +4,7 @@ import useAuth from '../../context/useAuth';
 import './Register.css'
 
 const Register = () => {
-    const { user } = useAuth()
+    const { signInUsingGoogle } = useAuth()
     return (
         <div className="container  pt-5">
             <div className="mt-5 pt-5">
@@ -17,7 +17,7 @@ const Register = () => {
                         <input className="sign-in-btn mt-3 mb-2" type="submit" value="Register" />
                     </form>
                     <p>Already have an account? <Link to="/login">Login</Link></p>
-                    <button className="sign-in-btn"><i class="fab fa-google"></i> Continue With Google</button>
+                    <button onClick={signInUsingGoogle} className="sign-in-btn"><i class="fab fa-google"></i> Continue With Google</button>
                 </div>
             </div>
         </div>

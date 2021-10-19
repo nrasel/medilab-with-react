@@ -4,7 +4,7 @@ import useAuth from '../../context/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const { user } = useAuth()
+    const { user, signInUsingGoogle } = useAuth()
     console.log(user)
     return (
         <div className="container  pt-5">
@@ -17,7 +17,7 @@ const Login = () => {
                         <input className="sign-in-btn mt-3 mb-2" type="submit" value="Login" />
                     </form>
                     <p>Don't have an account? <Link to="/register">Create Account</Link> </p>
-                    <button className="sign-in-btn"><i class="fab fa-google"></i> Continue With Google</button>
+                    <button onClick={signInUsingGoogle} className="sign-in-btn"><i class="fab fa-google"></i> Continue With Google</button>
                 </div>
             </div>
         </div>

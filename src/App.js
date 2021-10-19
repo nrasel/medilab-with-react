@@ -9,37 +9,40 @@ import Doctors from './components/Doctors/Doctors';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import AuthProvider from './context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/departments">
-            <Departments />
-          </Route>
-          <Route exact path="/doctors">
-            <Doctors />
-          </Route>
-          <Route exact path="/login">
-            <Login />
-          </Route>
-          <Route exact path="/register">
-            <Register />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path="/home">
+              <Home />
+            </Route>
+            <Route exact path="/departments">
+              <Departments />
+            </Route>
+            <Route exact path="/doctors">
+              <Doctors />
+            </Route>
+            <Route exact path="/login">
+              <Login />
+            </Route>
+            <Route exact path="/register">
+              <Register />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="*">
+              <NotFound />
+            </Route>
+          </Switch>
+          <Footer />
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
