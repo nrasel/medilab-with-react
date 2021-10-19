@@ -6,7 +6,6 @@ initializeAuthentication()
 
 const useFirebase = () => {
     const [user, setUser] = useState({})
-    const [error, setError] = useState('')
     const [isLoading, setIsLoading] = useState(true)
 
     const auth = getAuth()
@@ -27,7 +26,9 @@ const useFirebase = () => {
                     displayName: name
                 })
             })
-            .catch(err => { setError(err.message) })
+            .catch(err => {
+                console.log(err.message)
+            })
 
     }
 
@@ -37,7 +38,9 @@ const useFirebase = () => {
             .then(res => {
                 setUser(res.user);
             })
-            .catch(err => setError(err.message))
+            .catch(err => {
+                console.log(err.message)
+            })
 
     }
 
@@ -70,8 +73,7 @@ const useFirebase = () => {
         logOut,
         isLoading,
         signUpUser,
-        signInUser,
-        error
+        signInUser
     }
 }
 export default useFirebase;
