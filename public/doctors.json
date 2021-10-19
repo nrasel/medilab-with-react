@@ -117,5 +117,45 @@
         "desc": "IV therapy is a delivery method for fluids and medication. “IV” stands for intravenous, which means it's administered through the veins. The fluid that contains vitamins and minerals or medication is delivered via an IV drip or injection into the vein, which allows the therapy to move quickly through your bloodstream..",
         "img": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
         "type": "Service"
+    },
+    {
+        "id": "16",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "17",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "18",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "19",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "20",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "21",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "22",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
+    },
+    {
+        "id": "23",
+        "image": "https://i.ibb.co/qjXXRtW/ivtherepy.jpg",
+        "type": "Gallery"
     }
 ]

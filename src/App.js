@@ -7,6 +7,8 @@ import NotFound from './components/NotFound/NotFound';
 import Departments from './components/Departments/Departments';
 import Doctors from './components/Doctors/Doctors';
 import Footer from './components/Footer/Footer';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
           </Route>
           <Route exact path="/doctors">
             <Doctors />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          <Route exact path="/register">
+            <Register />
           </Route>
           <Route exact path="/">
             <Home />

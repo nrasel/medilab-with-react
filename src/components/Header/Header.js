@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../context/useAuth';
 import './Header.css'
 const Header = () => {
+    const { user } = useAuth()
     return (
         <div>
             <section>
@@ -28,6 +30,9 @@ const Header = () => {
                                     <li className="nav-item">
                                         <NavLink className="nav-link" to="/doctors">Doctors</NavLink>
                                     </li>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/login">Login</NavLink>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -43,6 +48,13 @@ const Header = () => {
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/doctors">Doctors</NavLink>
                                 </li>
+                                <button className="">Log Out</button>
+                                {user?.email ?
+                                    <button>Log Out</button>
+                                    :
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/login">Login</NavLink>
+                                    </li>}
                             </ul>
                         </div>
                     </div>

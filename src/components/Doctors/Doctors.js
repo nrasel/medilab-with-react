@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
 import Doctor from '../Doctor/Doctor';
 import './Doctors.css'
 
