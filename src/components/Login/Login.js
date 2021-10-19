@@ -6,9 +6,12 @@ import './Login.css'
 
 const Login = () => {
 
-    const { user, signInUsingGoogle, createUser } = useAuth()
+    const { user, signInUsingGoogle, signInUser, error } = useAuth()
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => createUser(data.email, data.password);
+    const onSubmit = data => {
+        signInUser(data.email, data.password)
+
+    };
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
@@ -26,9 +29,10 @@ const Login = () => {
                     <h2>Medilab</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
-                        <input placeholder="Email" className="form-control border-radius-change w-50 m-auto mb-3" defaultValue="" {...register("email")} />
+                        <input placeholder="Email" type="email" className="form-control border-radius-change w-50 m-auto mb-3" defaultValue="" {...register("email")} />
+                        <p>{error}</p>
 
-                        <input className="form-control border-radius-change w-50 m-auto mb-3" placeholder="Password" {...register("password", { required: true })} />
+                        <input className="form-control border-radius-change w-50 m-auto mb-3" placeholder="Password" type="password" {...register("password", { required: true })} />
 
                         {errors.exampleRequired && <span>This field is required</span>}
 

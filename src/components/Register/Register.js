@@ -4,12 +4,11 @@ import useAuth from '../../context/useAuth';
 import './Register.css'
 
 const Register = () => {
-    // const [customuser, setCustomUser] = useState({})
-    const { signInUsingGoogle, user, createUser } = useAuth()
+    const { signInUsingGoogle, user, signUpUser, error } = useAuth()
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => createUser(data.email, data.password);
-
-
+    const onSubmit = data => {
+        signUpUser(data.email, data.password, data.name)
+    };
 
 
     return (
@@ -20,9 +19,10 @@ const Register = () => {
 
                     <form onSubmit={handleSubmit(onSubmit)}>
 
-                        <input placeholder="Name" type="text" className="form-control border-radius-change w-50 m-auto mb-3" defaultValue={user?.displayName} {...register("name")} />
+                        <input placeholder="Name" className="form-control border-radius-change w-50 m-auto mb-3" defaultValue='' {...register("name")} />
 
                         <input placeholder="Email" className="form-control border-radius-change w-50 m-auto mb-3" type="email" defaultValue={user?.email} {...register("email")} />
+                        <p>{error}</p>
 
                         <input className="form-control border-radius-change w-50 m-auto mb-2" placeholder="Password" type="password" {...register("password", { required: true })} />
 
