@@ -22,13 +22,12 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((res) => {
                 setUser(res.user)
+                window.location.reload()
                 updateProfile(auth.currentUser, {
                     displayName: name
                 })
             })
-            .catch(err => {
-                console.log(err.message)
-            })
+            .finally(() => setIsLoading(false))
 
     }
 
@@ -37,10 +36,9 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(res => {
                 setUser(res.user);
+                window.location.reload()
             })
-            .catch(err => {
-                console.log(err.message)
-            })
+            .finally(() => setIsLoading(false))
 
     }
 

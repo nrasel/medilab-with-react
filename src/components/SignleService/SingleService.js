@@ -3,10 +3,10 @@ import { NavLink, useParams } from 'react-router-dom';
 
 const SingleService = () => {
     const { id } = useParams()
-    console.log(id)
+
     const [serviceDetails, setServiceDetails] = useState([])
     const [singleServiceDetails, setsingleServiceDetails] = useState({})
-    console.log(singleServiceDetails)
+
     useEffect(() => {
         fetch('/serviceDetails.json')
             .then(res => res.json())
@@ -21,8 +21,8 @@ const SingleService = () => {
 
     return (
         <div className="">
-            <div className="row row-cols-1 row-cols-md-4 g-4 mt-5 pt-5">
-                <div className="service-box m-auto  h-100">
+            <div className="row row-cols-1 row-cols-md-4 g-4 m-auto mt-5 pt-5">
+                <div className="service-box m-auto h-100">
                     <div className="">
                         <img className="service-img img-fluid" src={singleServiceDetails?.img} alt="" />
                     </div>

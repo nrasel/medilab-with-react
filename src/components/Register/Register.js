@@ -15,7 +15,7 @@ const Register = () => {
         <div className="container  pt-5">
             <div className="mt-5 pt-5">
                 <div className="box-shadow py-5">
-                    <h2>Medilab</h2>
+                    <h2>Register Medilab</h2>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
 
@@ -28,7 +28,7 @@ const Register = () => {
 
                         {errors.exampleRequired && <span>This field is required</span>}
 
-                        <input className="sign-in-btn" type="submit" />
+                        <input value="Register" className="sign-in-btn" type="submit" />
                     </form>
 
                     <p>Already have an account? <Link to="/login">Login</Link></p>

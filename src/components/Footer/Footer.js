@@ -7,9 +7,9 @@ const Footer = () => {
         <div>
             <section className="newslatter py-5 mt-5">
                 <div className="container">
-                    <div className="row g-3">
-                        <div className="col-lg-3 col-sm-6 col-md-6">
-                            <div className="medilab-info text-start">
+                    <div className="row g-3 text-center">
+                        <div className="col-lg-3 col-sm-12 text-sm-center text-md-start text-lg-start col-md-6">
+                            <div className="medilab-info ">
                                 <h3>Medilab</h3>
                                 <p >
                                     <span> A108 Green Road</span> <br />
@@ -20,7 +20,7 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-sm-6  col-md-6">
+                        <div className="col-lg-2 col-sm-12 text-sm-center text-md-start text-lg-start col-md-6">
                             <div className="useful-link d-flex flex-column">
                                 <h4>Useful Links</h4>
                                 <Link to="/home"><i className="fas fa-chevron-right"></i> Home</Link>
@@ -30,8 +30,8 @@ const Footer = () => {
 
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 col-md-6">
-                            <div className="useful-link d-flex flex-column">
+                        <div className="col-lg-3 col-sm-12 text-sm-center text-md-start text-lg-start col-md-6">
+                            <div className="useful-link  d-flex flex-column">
                                 <h4>Our Services</h4>
                                 <Link to="/home" ><i className="fas fa-chevron-right"></i> Pathology</Link>
                                 <Link to="/home"><i className="fas fa-chevron-right"></i> Radiology</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                                 <Link to="/home"><i className="fas fa-chevron-right"></i> Physiotherapy</Link>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6">
+                        <div className="col-lg-4 text-sm-center text-md-start text-lg-start col-sm-12 col-md-6">
                             <div className="specialist-info">
                                 <h4>Join Our Specialist</h4>
                                 <p>An allergist or immunologist focuses on preventing and treating allergic diseases.</p>

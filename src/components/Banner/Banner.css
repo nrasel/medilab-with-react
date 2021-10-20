@@ -16,3 +16,14 @@
     margin: 10px 0 0 0;
     font-size: 24px;
 }
+.doctors-btn{
+    background-color: #1977cc;
+    transition: 0.4s;
+    padding: 10px 26px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+}
+.doctors-btn:hover{
+    color: white;
+}

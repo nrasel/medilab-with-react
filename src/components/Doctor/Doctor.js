@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import './Doctor.css'
 
 const Doctor = (props) => {
-    console.log(props.doctor)
     const { name, title, desc, img } = props.doctor
     return (
         <div >
             <div>
-                <div className="member d-flex align-items-center justify-content-start">
+                <div className="member d-flex align-items-center d-block justify-content-start">
                     <div className="member-img me-4">
-                        <img src={img} className="img-fluid" alt="" />
+                        <img src={img} className="img-fluid d-block" alt="" />
                     </div>
                     <div className="member-info text-start">
                         <h4>{name}</h4>

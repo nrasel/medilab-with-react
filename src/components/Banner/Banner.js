@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Banner.css'
 
 const Banner = () => {
@@ -9,7 +10,8 @@ const Banner = () => {
                 <div className="container">
                     <div className="banner-info text-start">
                         <h1 className="banner-heading">WELCOME TO MEDILAB</h1>
-                        <p>Medilab,kochi's most trusted Diagnostic Center,since 1992</p>
+                        <p className="mb-3">Medilab,kochi's most trusted Diagnostic Center,since 1992</p>
+                        <Link to="/doctors" className="doctors-btn">Go To Doctors</Link>
                     </div>
                 </div>
             </section>
